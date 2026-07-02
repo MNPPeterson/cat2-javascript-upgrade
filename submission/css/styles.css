@@ -40,6 +40,20 @@ body{
     margin: 0px;
     padding: 0px;
 }
+#bannertext{
+    display: none; 
+  background-color:blanchedalmond;
+  padding: 15px;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+#bannertext.show {
+  display: block; 
+}
+#bannerimg {
+  cursor: pointer;
+}
+
 
 
 .Home div h1{
