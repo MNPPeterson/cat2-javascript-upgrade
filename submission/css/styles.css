@@ -104,6 +104,28 @@ body{
     font-weight: bold;
     transition: background-color 0.2s ease, transform 0.1s ease;
 }
+/* Center everything in the section */
+#CookInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    font-family: sans-serif; /* Clean font face */
+}
+
+/* Style the form container */
+#InfoForm {
+    display: flex;
+    flex-direction: column;  /* Stack fields vertically */
+    width: 100%;
+    max-width: 450px;        /* Restricts it from stretching too far */
+    gap: 12px;               /* Uniform spacing between rows */
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05); /* Soft background shadow */
+    margin-bottom: 25px;
+}
 
 
 

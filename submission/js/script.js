@@ -41,11 +41,35 @@ addbutton.addEventListener("click",function(event){
         wishListInput.value ="";
     }
     
+})
+
+let submitbtn = document.querySelector("#InfoForm button");
+let InfOutput = document.querySelector("#InfoOutput");
+let InfForm = document.querySelector("#InfoForm");
+
+InfForm.addEventListener("submit",event =>{
+    event.preventDefault();
+
+    const name = document.querySelector("#CookName");
+    const email = document.querySelector("#CookEmail");
+    if(name ==""|| email ==""){
+        InfOutput.textContent="Fill out both attributes pls"
+
+    }else{
+
+    InfOutput.innerHTML=
+    "<p>Name:"+name.value+"</p>"+
+    "<p>Email:"+email.value+"</p>"
+
+    name.value="";
+    email.value ="";
 
 
-    
+
+    }
 
 
 
 
 })
+
