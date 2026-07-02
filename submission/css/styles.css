@@ -1,0 +1,162 @@
+
+nav{
+   margin-top: 10px;
+   
+
+
+   
+}
+nav ul{
+   list-style: none;
+   padding:0;
+   margin: 0;
+    
+
+   display: flex;
+   justify-content: centre;
+   gap: 10px;
+
+
+}
+nav ul li a{
+   color:black;
+   text-decoration: none;
+   font-size: 1.1em;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   
+
+   padding: 8px 16px;
+   border: 1px solid wheat;
+   
+   border-radius: 10px;
+}
+nav ul li a:hover{
+   background-color:blanchedalmond;
+   border-color: blanchedalmond;
+}
+body{
+    background-color:ivory;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.Home div h1{
+    font-size: 30px;
+    font-family: "Young Serif", sans-serif;
+    color:black;
+    text-align: center;
+    font-weight: 250;
+}
+.Home div img{
+  width: 100%;
+  max-width: 1500px;      
+  margin: 40px auto;      
+  padding: 0 20px;   
+  border-radius: 50px;
+      
+  box-sizing: border-box;
+}
+h1{
+     font-size: 50px;
+    font-family: "Young Serif", sans-serif;
+    color:black;
+    text-align: center;
+    font-weight: 250;
+}
+
+
+h2{
+    
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    font-size:30px;
+}
+.P{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    
+
+}
+p{
+    
+    font-family: 'Young Serif', sans-serif;
+    color:black;
+    font-size: 24px;
+    text-align: center;
+}
+.mvgrid {
+  display: grid;
+  background-color: antiquewhite;
+
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px; 
+  padding: 120px; 
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 2px solid black;
+  border-color: black;
+  border-left: none;
+  border-right:none ;
+}
+h3{
+    text-decoration: underline;
+    text-align: center;
+    color:black;
+    font-family: 'sans-serif', sans-serif;
+    font-weight: bold;
+
+}
+
+.imagesgrid div img{
+    width: 320px;   
+    height: 250px;
+    border-radius: 30px;
+    
+
+   
+}
+.imagesgrid :hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+
+.imagesgrid{
+     display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px; 
+  padding: 120px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+    
+}
+.JoinUs{
+    font-size: 50px;
+    padding-bottom: 0px;
+}
+.JoinUsGrid{
+     display: grid;
+  background-color: antiquewhite;
+
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px; 
+  padding: 120px; 
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 2px solid black;
+  border-color: black;
+  border-left: none;
+  border-right:none ;
+
+}
+.JoinUsGrid div img{
+    width: 320px;   
+    height: 150px;
+    border-radius: 30px;
+    padding-left: 110px;
+}
