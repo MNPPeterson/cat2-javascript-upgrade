@@ -126,6 +126,50 @@ body{
     box-shadow: 0 4px 10px rgba(0,0,0,0.05); /* Soft background shadow */
     margin-bottom: 25px;
 }
+.coursescontainer {
+  display: grid;
+    /* This creates horizontal columns based on content, wrapping neatly on smaller screens */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 30px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.course-card {
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 3px 3px 0px black; /* Gives it a cool bold border pop styling */
+    transition: transform 0.2s ease;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+}
+
+.course-card h2 {
+    font-family: "Young Serif", sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.course-card .price {
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.course-card .duration {
+    font-style: italic;
+    font-size: 16px;
+    color: #555;
+}
 
 
 

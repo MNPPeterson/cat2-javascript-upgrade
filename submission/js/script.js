@@ -89,8 +89,49 @@ InfForm.addEventListener("submit", event => {
 
     }
 
-
-
-
 })
+
+
+
+const culinaryCourses = [
+    {
+        name: "Professional Pastry & Baking",
+        price: "KSh 45,000",
+        duration: "8 Weeks"
+    },
+    {
+        name: "African Heritage & Fusion Cuisine",
+        price: "KSh 35,000",
+        duration: "6 Weeks"
+    },
+    {
+        name: "Fundamentals of Culinary Arts",
+        price: "KSh 60,000",
+        duration: "12 Weeks"
+    },
+    {
+        name: "Advanced Knife Skills & Saucier",
+        price: "KSh 20,000",
+        duration: "3 Weeks"
+    }
+];
+
+
+const coursesContainer = document.getElementById('coursescontainer');
+
+
+culinaryCourses.forEach(course => {
+    
+    const card = document.createElement('div');
+    card.classList.add('course-card');
+
+    
+    card.innerHTML = `
+        <h2>${course.name}</h2>
+        <p class="price">Price: ${course.price}</p>
+        <p class="duration">Duration: ${course.duration}</p>
+    `;
+
+    coursesContainer.appendChild(card);
+});
 
