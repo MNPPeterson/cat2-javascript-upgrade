@@ -1,0 +1,5 @@
+For loop rendered dynamic content-I chose to do a short course analysis for my school.I loop through an array of the courses i want to offer generate cards and display it .It makes it easyier to add more in the future instead of going the html route
+For the dynamic add and remove elements-I chose to make the person apllying be able to make a wishlist of what they wish to learn with us.When they add something on the text box an li element is created and appended to ul then they can delete it with the delet button at any time.
+For the Form handling and validation feed back i created a simple sign up form for an admission letter where the user enters their name and email.
+For the persistent stage-I did a simple one where the users entered email and name are stored in a local storage and still displayed the next time the user returns
+For the click to reveal banner-I did a quite simple one.I made a text to be invisible by default and made it such that the banner toggles it to be active
